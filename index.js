@@ -39,15 +39,6 @@ class QiniuStorage extends StorageBase {
         this.storagePath = config.getContentPath('images');
     }
 
-    /**
-     * Saves the image to storage
-     * - image is the express image object
-     * - returns a promise which ultimately returns the full url to the uploaded image
-     *
-     * @param file
-     * @param targetDir
-     * @returns {*}
-     */
     save(file, targetDir) {
         const client = this.client;
         const _this = this;
