@@ -24,5 +24,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/superchijinpeng/ghost_blog_qiniu_storage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superchijinpeng/ghost_blog_qiniu_storage.git"
   }
 }
